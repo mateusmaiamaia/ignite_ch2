@@ -6,7 +6,7 @@
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 class CreateCourseServices {
-    execute(name, duration, educator) {
+    execute({ duration, name, educator }) {
         console.log(name, duration, educator);
     }
 }
